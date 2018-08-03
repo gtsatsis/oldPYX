@@ -1,6 +1,8 @@
 Pretend You're Xyzzy
 ===================
 
+NOTE: An older version of Andy Janata's Cards Against Humanity Clone that allows by default for blank cards and chat.
+
 A Cards Against Humanity clone, server and web client. See WebContent/license.html for full details.
 
 Note: This project is only known to work with Tomcat 7, all other versions are unsupported. 
