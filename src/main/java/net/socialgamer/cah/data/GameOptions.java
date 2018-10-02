@@ -50,7 +50,7 @@ public class GameOptions {
   public static final int MAX_SPECTATOR_LIMIT = 20;
   public static final int MIN_BLANK_CARD_LIMIT = 0;
   public static final int DEFAULT_BLANK_CARD_LIMIT = 0;
-  public static final int MAX_BLANK_CARD_LIMIT = 30;
+  public static final int MAX_BLANK_CARD_LIMIT = 9999;
 
   // These are the default values new games get.
   public int blanksInDeck = DEFAULT_BLANK_CARD_LIMIT;
