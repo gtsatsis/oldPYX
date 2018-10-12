@@ -118,7 +118,7 @@ cah.Game = function(id) {
     // that space at the beginning matters
     var html = ' <span class="nowrap"><input type="checkbox" id="' + cardSetElementId
         + '" class="card_set" title="' + title + '" value="' + cardSet.getId()
-        + '" name="card_set" aria-label="' + aria_label + '" /><label for="' + cardSetElementId
+        + '" name="card_set" aria-label="' + aria_label + '" checked="checked"/><label for="' + cardSetElementId
         + '" title="' + title + '" class="card_set_label">' + cardSet.getName() + '</label></span>';
     if (cardSet.isBaseDeck()) {
       $(".base_card_sets", this.optionsElement_).append(html);
