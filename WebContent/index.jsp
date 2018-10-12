@@ -37,42 +37,7 @@ to, for instance, display the number of connected players.
 <jsp:include page="analytics.jsp" />
 <link rel="stylesheet" type="text/css" href="cah.css" media="screen" />
 </head>
-<body>
-<div id="tweetbox">
-  <h3>Recent tweets (mainly server status updates)</h3>
-  <a class="twitter-timeline" data-height="500" data-dnt="true" data-theme="light"
-  href="https://twitter.com/_PYX_?ref_src=twsrc%5Etfw">Tweets by _PYX_</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-<h1>
-  Pretend You're <dfn style="border-bottom: 1px dotted black"
-  title="Xyzzy is an Artificial Unintelligence bot. You'll be making more sense than him in this game.">
-  Xyzzy</dfn>
-</h1>
-<h3>A Cards Against Humanity clone.</h3>
-<p>
-  This webapp is still in development. There will be bugs, but hopefully they won't affect gameplay
-  very much. To assist with development, <strong>all traffic on this server <em>may</em> be
-  logged.</strong>
-</p>
-<p>
-  The name you enter and your computer's IP address will <strong>always</strong> be logged when you
-  load the game client. Chat and gameplay may also be logged.
-</p>
-<p>
-  <input type="button" value="I have read the above; Take me to the game!"
-    onclick="window.location='game.jsp';" />
-</p>
-<p>
-  Pretend You're Xyzzy is a Cards Against Humanity clone, which is available at
-  <a href="http://www.cardsagainsthumanity.com/">cardsagainsthumanity.com</a>, where you can buy it
-  or download and print it out yourself. It is distributed under a
-  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons - Attribution -
-  Noncommercial - Share Alike license</a>. This web version is in no way endorsed or sponsored by
-  cardsagainsthumanity.com. You may download the source code to this version from
-  <a href="https://github.com/ajanata/PretendYoureXyzzy">GitHub</a>. For full license
-  information, including information about included libraries, see the
-  <a href="license.html">full license information</a>.
-</p>
+<body onload="window.location='game.jsp';">
+  <button onclick="window.location='game.jsp';"> If you weren't redirected, click here</button>
 </body>
 </html>
